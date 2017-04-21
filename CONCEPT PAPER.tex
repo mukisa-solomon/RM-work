@@ -1,0 +1,59 @@
+\documentclass[12pt, letterpaper]{article}
+\usepackage{amsmath}
+\setlength{\oddsidemargin}{0.25in}
+
+\setlength{\textwidth}{6in}
+
+\setlength{\topmargin}{-0.25in}
+
+\setlength{\textheight}{8in}
+\begin{document}
+    \title{\textbf{Investigation of the solution of least squares problems using the QR factorization}}
+    \author{BAMUZIBIRE SOLOMON MUKISA 14/U/3938/PS\\ MUSIIMEMARIA EUGENIA 15/U/8383/EVE \\KIKOMEKO MUSA 15/U/6675/PS \\ KAGGWA HAM 14/U/6759/PS\\ }
+    \date{16/04/2017}
+    \maketitle
+\section{\textbf{INTRODUCTION} } 
+    Least  squares is a statistical method used to determine a line of best 
+    by minimizing the sum of squares created by a mathematical function.\\
+    
+    QR factorization of a matrix is the decomposition of a matrix D into a product 
+    $D=QR$ of an orthogonal matrix Q and an upper triangular matrix R. Orthogonal basis is the relation of two lines at right angles to one another and the generalization of this relation into n dimensions. Orthonormal basis is a square matrix with real entries whose columns and rows are orthogonal unit vectors.\\ 
+\section{\textbf{OBJECTIVES}}
+\subsection{\textbf{Main objective}}
+\begin{itemize}
+    \item To solve the least squares using QR factorization.
+\end{itemize}
+
+\subsection{\textbf{Specific Objectives}}
+\begin{itemize}
+    \item To turn the columns of the matrix into the orthogonal set via Gram-Schmidt. \\
+    \item To turn the orthogonal set into an orthonormal set by dividing the columns in the orthogonal set by their lengths which is Q.\\
+    \item To find the upper triangle matrix by finding the product of the transpose of the orthonormal set and the matrix which is R.\\
+    \item To find the QR factorization by finding the product of the orthonormal set and the upper triangle matrix.\\
+\end{itemize}
+
+\section{\textbf{METHODOLOGY}}
+	\paragraph{Among the methods includes the following:the normal equation}
+	\paragraph{Given data $((x1; y1).......(xN; yN))$, we may define the error associated to saying y = ax + b.}
+	\paragraph{This is just N times the variance of the data set and It makes no difference whether or not we study the variance or N times the variance as our error, and note that the error is a function of two variables.}
+	\paragraph{The goal is to find values of a and b that minimize the error.We will describe how to factor a general m × n matrix A, with m ≥ n,A = QˆR.}
+	\begin{equation}
+	a^2y-(ax+b)=1/N\sum_{N}^{n=1}){(yn ¡ (axn + b^2))}.
+	\end{equation}
+	\section{\textbf{BACKGROUND}}  
+	\paragraph{The Method of Least Squares is a procedure, requiring just some calculus and linear algebra, to determine what the “best fit” line is to the data. Of course, we need to quantify what
+		we mean by “best fit”, which will require a brief review of some probability and statistics.
+		A careful analysis of the proof will show that the method is capable of great generalizations. Instead of finding the best fit line, we could find the best fit given by any finite linear
+		combinations of specified functions. The least squares problem will also find the value of x that makes Ax as close to b as possible. That is Ax ˜b
+	}
+	\paragraph{We add squares of b-Ax which is least or minimum and therefore we call it the solution to least square problem.
+		A least squares solution to Ax˜b is a true solution to ATAx = ATb and every true solution to ATAx = ATb is a least square solution to Ax˜b.
+		The QR factorization is the most common, and best known solution to least squares problem.
+	}
+	\bibliographystyle{IEEEtran}
+	\section{\textbf{REFERENCES}}\label{sec:intro}
+	{American Congress on Surveying and Mapping,
+		author = {American Congress on Surveying and Mapping},
+		title = {Issue of surveying and Land Information System},
+		date = {June, 2001}
+\end{document} 
